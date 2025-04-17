@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FTK::ConsoleRender" Collapsed="true">
+    <Position X="1" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAgAAAiAAAAEAAAAAABAAAQQBSAAAAABEAAgBCAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\ConsoleRender.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::EntityManager" Collapsed="true">
+    <Position X="3.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgAAAAAAQAAAFABAAAAAAAAAQAAAIACAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Manager\EntityManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::GameManager" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BggAEQBQAQAAAACRAgABAkEIAgAAAAJCsBEKAIBBiAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Manager\GameManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::UserTravelMapAction" Collapsed="true">
+    <Position X="79.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAABAJAAECAQAAAAAAAAAIAAAAAAAAQAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Manager\GameStateController.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::GameStateController" Collapsed="true">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAKAAAADABAJAaAACACCAgAAoAAAAIAACgIAACAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Manager\GameStateController.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::PlayerManager" Collapsed="true">
+    <Position X="12.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABACgBAAAABAAAgAAAAAAAAAAhAEAAGCAAAAEAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Manager\PlayerManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::UserEvent" Collapsed="true">
+    <Position X="14.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAABAAAAAAAAAAAAAAQIAAAACAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Manager\UserEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Creature" Collapsed="true">
+    <Position X="15.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UQCBAJGAACiAAACIAgQwCEngCAYAwAgAEAKgABAAkwA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Entity\Creature.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Entity" Collapsed="true">
+    <Position X="13" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAgAAgQAAAIEQAAAAFAgAAAQAACAAAAgA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Entity\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Player" Collapsed="true">
+    <Position X="15.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAwCIAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Entity\Player.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::TentEntity" Collapsed="true">
+    <Position X="10.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Entity\TentEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::WorldEvent" Collapsed="true">
+    <Position X="13" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgIAAAACAAAIAAAAAAAAAAAAQAAAAEAEA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Entity\WorldEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Map" Collapsed="true">
+    <Position X="81.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAABAAAAAAAAAAAABAAgAAACAAAAAAAEAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Map\Map.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::GameState" Collapsed="true">
+    <Position X="10.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAgAAAAAAAAAAAABAAAKAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Define\GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Equipment" Collapsed="true">
+    <Position X="56.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAKAAAAAAAAAAQAAAQAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Item" Collapsed="true">
+    <Position X="54.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACkgAAAAAAAAAAQEAAAEAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Shop" Collapsed="true">
+    <Position X="76.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Shop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::IBattleInfo" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAkAAAAAACAEAAAQABEAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\IBattleInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::ISkill" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAIAoAQAAAAEAAAQBAgAJAAAgCQAAAAgAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::ActiveSkill" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAACAAAACAAAAAACAgAAAAAAAUAAAAEAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::ActiveAttack" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACgAAAIAAAAAAAAAAAgCAACAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::PassiveSkill" Collapsed="true">
+    <Position X="20.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Escape" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIAoAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Active\Escape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Heal" Collapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAoAACAAAAAAAABCAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Active\Heal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::NormalAttack" Collapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Active\NormalAttack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Provoke" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAoAABAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Active\Provoke.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::ShockBlast" Collapsed="true">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Active\ShockBlast.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::SpeedUp" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAoAAAAAAAAAAAACAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Active\SpeedUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Destory" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Passive\Destory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Fortify" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Passive\Fortify.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Hammer_Splash" Collapsed="true">
+    <Position X="22" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Passive\Hammer_Splash.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Run" Collapsed="true">
+    <Position X="24.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\Passive\Run.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::BattleManager" Collapsed="true">
+    <Position X="78" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAgAACAIAAAABAAgAAAAAAQAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\BattleManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::ActiveBattleInfo" Collapsed="true">
+    <Position X="5.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAEAAgAAgAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\IBattleInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::AttackBattleInfo" Collapsed="true">
+    <Position X="3" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAEEAAIAAIAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\IBattleInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::HealBattleInfo" Collapsed="true">
+    <Position X="5.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\IBattleInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::AdditionalDamageBattleInfo" Collapsed="true">
+    <Position X="0.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAAIAAIAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\IBattleInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::EffectBattleInfo" Collapsed="true">
+    <Position X="7.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\IBattleInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::IBuff" Collapsed="true">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIACBAAQAAgCAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Buff\Buff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::IEffect" Collapsed="true">
+    <Position X="38.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Effect\IEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Util::BitFlags&lt;StateType&gt;" Collapsed="true">
+    <Position X="10.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAACAACAAAAAAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\BitFlags.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Util::Event&lt;RETURN, ...ARGS&gt;" Collapsed="true">
+    <Position X="79.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAIABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\Event.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Util::Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAQAAgAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\Singleton.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::UI::UIManager" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAIACAgAAAAAAAAAAAAAAAAAABACQAEAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Manager\UIManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::UI::UIPanel" Collapsed="true">
+    <Position X="78" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAABAAAAAAgAAAAAEAAAACQAChAAAEAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\UI\Panel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::UI::IScene" Collapsed="true">
+    <Position X="1.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\UI\Scenes\IScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::UI::Scene_Battle" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAQECAACgAAAEAEgAEBAAEABBIAAAAAEA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\UI\Scenes\Scene_Battle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::UI::Scene_TravelMap" Collapsed="true">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQACEAAAAAAIQQQAFAAAAAAAAAAAACAAIJSBQAQMCEA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\UI\Scenes\Scene_TravelMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::Godsbeard" Collapsed="true">
+    <Position X="73.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Items.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::GoldenRoot" Collapsed="true">
+    <Position X="35.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAJAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Items.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::TeleportScroll" Collapsed="true">
+    <Position X="37.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Items.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::Tent" Collapsed="true">
+    <Position X="40" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAACAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Items.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::Weapon" Collapsed="true">
+    <Position X="50" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Weapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::Bracelet" Collapsed="true">
+    <Position X="60.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\Bracelet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::DirtyStuff" Collapsed="true">
+    <Position X="49" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\DirtyStuff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::GiantHammer" Collapsed="true">
+    <Position X="51.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\GiantHammer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::Hammer" Collapsed="true">
+    <Position X="55.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\Hammer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::HolyGrail" Collapsed="true">
+    <Position X="67" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\HolyGrail.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::LaurelWreath" Collapsed="true">
+    <Position X="69.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\LaurelWreath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::LeatherArmor" Collapsed="true">
+    <Position X="71.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\LeatherArmor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::MagicWand" Collapsed="true">
+    <Position X="44.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\MagicWand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::PlateArmor" Collapsed="true">
+    <Position X="42.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\PlateArmor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::RitualSword" Collapsed="true">
+    <Position X="46.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\RitualSword.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::Robe" Collapsed="true">
+    <Position X="58" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\Robe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::Shoes" Collapsed="true">
+    <Position X="62.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\Shoes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::WoodenShield" Collapsed="true">
+    <Position X="64.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\WoodenShield.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::item::WoodenSword" Collapsed="true">
+    <Position X="53.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Item\Equipments\WoodenSword.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::Battle::ProcessController" Collapsed="true">
+    <Position X="83.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGYHYAAhAAAAAAIAgAAAAAAAABIIAAEAAAAFASAIAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\ProcessController.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::buff::Dizziness" Collapsed="true">
+    <Position X="28.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Buff\Buff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::buff::Angry" Collapsed="true">
+    <Position X="31" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Buff\Buff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::buff::Poisoned" Collapsed="true">
+    <Position X="33.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Buff\Buff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::buff::SpeedUp" Collapsed="true">
+    <Position X="26.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Buff\Buff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTK::ai::AIAgent" Collapsed="true">
+    <Position X="76.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAQCAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\AI\AIAgent.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="FTK::Attribute" Collapsed="true">
+    <Position X="78" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAAAAAAAACAAAAAQgBQAgAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Entity\Attribute.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTK::Tile" Collapsed="true">
+    <Position X="79.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQAAAAAAAQA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Map\Tile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTK::Damage" Collapsed="true">
+    <Position X="81.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTK::BattleEntities" Collapsed="true">
+    <Position X="79.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\IBattleInfo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTK::AttackInfo" Collapsed="true">
+    <Position X="76.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Battle\IBattleInfo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector2D" Collapsed="true">
+    <Position X="81.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAEAAAAAAAAQAAgAAAAAAACACgAAAQYAI=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Vector2D.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::lambda_traits_map_vector_parameter&lt;Func, V, K&gt;" Collapsed="true">
+    <Position X="76.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\LoDash.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::lambda_traits_map_vector_parameter&lt;Func, V, K, void&gt;" Collapsed="true">
+    <Position X="83.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\LoDash.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::lambda_traits_map_vector_parameter&lt;Func, V, void, void&gt;" Collapsed="true">
+    <Position X="78" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\LoDash.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::lambda_traits_map_vector_variadic_parameter&lt;Func, V, K&gt;" Collapsed="true">
+    <Position X="79.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\LoDash.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::lambda_traits_Where_map_parameter&lt;Func, K, V, KEY, VALUE&gt;" Collapsed="true">
+    <Position X="81.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\LoDash.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::single_parameter_lambda_traits&lt;Func, K, KEY&gt;" Collapsed="true">
+    <Position X="78" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\LoDash.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_one_of&lt;T, U, ...Rest&gt;" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_one_of&lt;T, U&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_map_element&lt;T, K, V&gt;" Collapsed="true">
+    <Position X="76.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_map_element&lt;T, K, V, std::void_t&lt;typename T::key_type, typename T::mapped_type&gt;&gt;" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_vector_element&lt;T, V&gt;" Collapsed="true">
+    <Position X="79.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_vector_element&lt;T, V, std::void_t&lt;typename T::value_type&gt;&gt;" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_set_element&lt;T, V&gt;" Collapsed="true">
+    <Position X="76.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_set_element&lt;T, K, std::void_t&lt;typename T::key_type&gt;&gt;" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_single_element&lt;T, V&gt;" Collapsed="true">
+    <Position X="78" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_single_element&lt;T, V, std::void_t&lt;typename T::value_type&gt;&gt;" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::lambda_traits&lt;R(ClassType::*)(Args...)const&gt;" Collapsed="true">
+    <Position X="81.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_pointer&lt;T&gt;" Collapsed="true">
+    <Position X="81.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_pointer&lt;T*&gt;" Collapsed="true">
+    <Position X="83.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_pointer&lt;std::shared_ptr&lt;T&gt;&gt;" Collapsed="true">
+    <Position X="79.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoDash::is_pass_by_reference_Ignore_pointer&lt;Expected, Actual&gt;" Collapsed="true">
+    <Position X="78" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Util\LoDash\type_traits_enhance.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTK::UI::DrawInfo" Collapsed="true">
+    <Position X="83.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\UI\Panel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTK::UI::PixelColor" Collapsed="true">
+    <Position X="76.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAACAAAgAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\UI\Pixel.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTK::UI::Pixel" Collapsed="true">
+    <Position X="83.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAgAAACAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\UI\Pixel.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="FTK::EmGameState" Collapsed="true">
+    <Position X="83.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAAAAAIEABAAAACAAAgAGAAAAgAAAAAAAAAAg=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Define\GameState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FTK::EmSkill" Collapsed="true">
+    <Position X="78" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAADEAACAAAgAAAAAQAAAAAABAAAAAAM=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FTK::EmDamageType" Collapsed="true">
+    <Position X="79.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FTK::EmSkillRange" Collapsed="true">
+    <Position X="79.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FTK::EmTargetSelectCreatureFlag" Collapsed="true">
+    <Position X="81.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Skill\ISkill.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FTK::EmBuff" Collapsed="true">
+    <Position X="76.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Buff\Buff.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FTK::EmGameInvokeEvent" Collapsed="true">
+    <Position X="81.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAIDEAAAAAIAAIAAAAAAAAAAgIAAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\GameEvent\EmGameInvokeEvent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EmColor" Collapsed="true">
+    <Position X="78" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAnAAQAAQAAIgAAABAAAAAABAAAAAQAAAAACDAAAAA=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Define\Color.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EmKeyBoard" Collapsed="true">
+    <Position X="76.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAREAAgAAAAAJAIBAgFAgAEACoCCAQCvv//YQM=</HashCode>
+      <FileName>D:\Practicum\C++\FTK\src\Define\KeyBoard.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>

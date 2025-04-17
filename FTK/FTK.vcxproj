@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fc5b5c02-6126-48e4-8ac0-c391b9da2cc7}</ProjectGuid>
+    <RootNamespace>FTK</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\AI\AIAgent.hpp" />
+    <ClInclude Include="..\src\Battle\BattleManager.h" />
+    <ClInclude Include="..\src\Battle\IBattleInfo.h" />
+    <ClInclude Include="..\src\Battle\ProcessController.hpp" />
+    <ClInclude Include="..\src\Buff\Buff.h" />
+    <ClInclude Include="..\src\ConsoleRender.hpp" />
+    <ClInclude Include="..\src\Define\Color.h" />
+    <ClInclude Include="..\src\Define\KeyBoard.h" />
+    <ClInclude Include="..\src\Define\GameState.h" />
+    <ClInclude Include="..\src\Effect\IEffect.h" />
+    <ClInclude Include="..\src\Entity\Attribute.h" />
+    <ClInclude Include="..\src\Entity\Creature.h" />
+    <ClInclude Include="..\src\Entity\Entity.h" />
+    <ClInclude Include="..\src\Entity\Player.hpp" />
+    <ClInclude Include="..\src\Entity\TentEntity.h" />
+    <ClInclude Include="..\src\Entity\WorldEvent.h" />
+    <ClInclude Include="..\src\GameEvent\EmGameInvokeEvent.h" />
+    <ClInclude Include="..\src\Item\Equipment.h" />
+    <ClInclude Include="..\src\Item\Equipments\Bracelet.h" />
+    <ClInclude Include="..\src\Item\Equipments\DirtyStuff.h" />
+    <ClInclude Include="..\src\Item\Equipments\Equipments.h" />
+    <ClInclude Include="..\src\Item\Equipments\GiantHammer.h" />
+    <ClInclude Include="..\src\Item\Equipments\Hammer.h" />
+    <ClInclude Include="..\src\Item\Equipments\HolyGrail.h" />
+    <ClInclude Include="..\src\Item\Equipments\LaurelWreath.h" />
+    <ClInclude Include="..\src\Item\Equipments\LeatherArmor.h" />
+    <ClInclude Include="..\src\Item\Equipments\MagicWand.h" />
+    <ClInclude Include="..\src\Item\Equipments\PlateArmor.h" />
+    <ClInclude Include="..\src\Item\Equipments\RitualSword.h" />
+    <ClInclude Include="..\src\Item\Equipments\Robe.h" />
+    <ClInclude Include="..\src\Item\Equipments\Shoes.h" />
+    <ClInclude Include="..\src\Item\Equipments\WoodenShield.h" />
+    <ClInclude Include="..\src\Item\Equipments\WoodenSword.h" />
+    <ClInclude Include="..\src\Item\Item.h" />
+    <ClInclude Include="..\src\Item\Items.h" />
+    <ClInclude Include="..\src\Item\Shop.h" />
+    <ClInclude Include="..\src\Item\Weapon.h" />
+    <ClInclude Include="..\src\Manager\EntityManager.hpp" />
+    <ClInclude Include="..\src\Manager\GameManager.hpp" />
+    <ClInclude Include="..\src\Manager\GameStateController.hpp" />
+    <ClInclude Include="..\src\Manager\PlayerManager.hpp" />
+    <ClInclude Include="..\src\Manager\UIManager.hpp" />
+    <ClInclude Include="..\src\Manager\UserEvent.h" />
+    <ClInclude Include="..\src\Map\Map.hpp" />
+    <ClInclude Include="..\src\Map\Tile.h" />
+    <ClInclude Include="..\src\Skill\Active\Escape.h" />
+    <ClInclude Include="..\src\Skill\Active\Heal.h" />
+    <ClInclude Include="..\src\Skill\Active\NormalAttack.h" />
+    <ClInclude Include="..\src\Skill\Active\Provoke.h" />
+    <ClInclude Include="..\src\Skill\Active\ShockBlast.h" />
+    <ClInclude Include="..\src\Skill\Active\SpeedUp.h" />
+    <ClInclude Include="..\src\Skill\ISkill.h" />
+    <ClInclude Include="..\src\Skill\Passive\Destory.h" />
+    <ClInclude Include="..\src\Skill\Passive\Fortify.h" />
+    <ClInclude Include="..\src\Skill\Passive\Hammer_Splash.h" />
+    <ClInclude Include="..\src\Skill\Passive\Run.h" />
+    <ClInclude Include="..\src\Skill\Skills.h" />
+    <ClInclude Include="..\src\UI\Panel.h" />
+    <ClInclude Include="..\src\UI\Pixel.hpp" />
+    <ClInclude Include="..\src\UI\Scenes\IScene.h" />
+    <ClInclude Include="..\src\UI\Scenes\Scene_Battle.h" />
+    <ClInclude Include="..\src\UI\Scenes\Scene_TravelMap.h" />
+    <ClInclude Include="..\src\Util\BitFlags.hpp" />
+    <ClInclude Include="..\src\Util\Event.hpp" />
+    <ClInclude Include="..\src\Util\LoDash\LoDash.hpp" />
+    <ClInclude Include="..\src\Util\LoDash\type_traits_enhance.hpp" />
+    <ClInclude Include="..\src\Util\RandomSample.hpp" />
+    <ClInclude Include="..\src\Util\Singleton.hpp" />
+    <ClInclude Include="..\src\Vector2D.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Battle\BattleManager.cpp" />
+    <ClCompile Include="..\src\Battle\IBattleInfo.cpp" />
+    <ClCompile Include="..\src\Buff\Buff.cpp" />
+    <ClCompile Include="..\src\Entity\Creature.cpp" />
+    <ClCompile Include="..\src\Entity\Entity.cpp" />
+    <ClCompile Include="..\src\Entity\TentEntity.cpp" />
+    <ClCompile Include="..\src\Entity\WorldEvent.cpp" />
+    <ClCompile Include="..\src\Item\Equipment.cpp" />
+    <ClCompile Include="..\src\Item\Equipments\DirtyStuff.cpp" />
+    <ClCompile Include="..\src\Item\Equipments\LaurelWreath.cpp" />
+    <ClCompile Include="..\src\Item\Equipments\WoodenSword.cpp" />
+    <ClCompile Include="..\src\Item\Items.cpp" />
+    <ClCompile Include="..\src\Manager\UserEvent.cpp" />
+    <ClCompile Include="..\src\Skill\Active\Escape.cpp" />
+    <ClCompile Include="..\src\Skill\Active\Heal.cpp" />
+    <ClCompile Include="..\src\Skill\Active\NormalAttack.cpp" />
+    <ClCompile Include="..\src\Skill\Active\Provoke.cpp" />
+    <ClCompile Include="..\src\Skill\Active\ShockBlast.cpp" />
+    <ClCompile Include="..\src\Skill\Active\SpeedUp.cpp" />
+    <ClCompile Include="..\src\Skill\ISkill.cpp" />
+    <ClCompile Include="..\src\Skill\Passive\Destory.cpp" />
+    <ClCompile Include="..\src\Skill\Passive\Fortify.cpp" />
+    <ClCompile Include="..\src\Skill\Passive\Hammer_Splash.cpp" />
+    <ClCompile Include="..\src\Skill\Passive\Run.cpp" />
+    <ClCompile Include="..\src\UI\Panel.cpp" />
+    <ClCompile Include="..\src\UI\Scenes\IScene.cpp" />
+    <ClCompile Include="..\src\UI\Scenes\Scene_TravelMap.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

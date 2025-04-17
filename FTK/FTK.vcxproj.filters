@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="來源檔案\Util">
+      <UniqueIdentifier>{921f2048-160f-4055-8ee2-c2e00895071e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Manager">
+      <UniqueIdentifier>{f6cf0271-892b-42ea-bc21-3486844680b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Entity">
+      <UniqueIdentifier>{4b6131b4-3a3f-4507-bd11-064d013a4c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Map">
+      <UniqueIdentifier>{dc86af41-c75f-4770-8f07-4a4ec510eae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\UI">
+      <UniqueIdentifier>{dc59e2b3-0cf9-44a6-bfa9-e9fb1af6ae3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Define">
+      <UniqueIdentifier>{fab41843-d956-4079-8173-1282b28d1905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\UI\Scenes">
+      <UniqueIdentifier>{b02efd72-8ca2-43d4-ba2c-ee9610537b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Item">
+      <UniqueIdentifier>{e7f3a831-ea19-46d6-89c7-63d80a0115b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Util\LoDash">
+      <UniqueIdentifier>{5e0b4b17-f141-4644-9f22-7a5bd425d958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Skill">
+      <UniqueIdentifier>{f53827b5-66c4-4f59-bae3-7c5c4fe17943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Battle">
+      <UniqueIdentifier>{ee8118ad-a907-43c4-87c2-5fbfd76d98a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Skill\Active">
+      <UniqueIdentifier>{dae7b913-950d-4603-8c33-325667fbae3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Item\Equipments">
+      <UniqueIdentifier>{11362947-c7c6-4211-9119-250433441aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Buff">
+      <UniqueIdentifier>{3709e25b-fe28-4b9c-a259-a382d5666576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\GameEvent">
+      <UniqueIdentifier>{c0eda8ae-0993-4d20-8f1e-d619fe3dc8a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Skill\Passive">
+      <UniqueIdentifier>{59bdb4d5-5e2f-45dd-a97a-ffd46ef2febe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Effect">
+      <UniqueIdentifier>{3163c962-af35-49e2-b725-76b35ec9be02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\AI">
+      <UniqueIdentifier>{52e87d20-d935-4208-8a2f-e1c79b2aae00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Vector2D.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity\Entity.h">
+      <Filter>來源檔案\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity\Player.hpp">
+      <Filter>來源檔案\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Map\Map.hpp">
+      <Filter>來源檔案\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Map\Tile.h">
+      <Filter>來源檔案\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConsoleRender.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\Pixel.hpp">
+      <Filter>來源檔案\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Define\KeyBoard.h">
+      <Filter>來源檔案\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Define\Color.h">
+      <Filter>來源檔案\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\Panel.h">
+      <Filter>來源檔案\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\Scenes\Scene_Battle.h">
+      <Filter>來源檔案\UI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\Scenes\Scene_TravelMap.h">
+      <Filter>來源檔案\UI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\Scenes\IScene.h">
+      <Filter>來源檔案\UI\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Item.h">
+      <Filter>來源檔案\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Shop.h">
+      <Filter>來源檔案\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Manager\PlayerManager.hpp">
+      <Filter>來源檔案\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Manager\UIManager.hpp">
+      <Filter>來源檔案\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Manager\UserEvent.h">
+      <Filter>來源檔案\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Manager\EntityManager.hpp">
+      <Filter>來源檔案\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Manager\GameManager.hpp">
+      <Filter>來源檔案\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Manager\GameStateController.hpp">
+      <Filter>來源檔案\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\Singleton.hpp">
+      <Filter>來源檔案\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\Event.hpp">
+      <Filter>來源檔案\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\LoDash\type_traits_enhance.hpp">
+      <Filter>來源檔案\Util\LoDash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\LoDash\LoDash.hpp">
+      <Filter>來源檔案\Util\LoDash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Define\GameState.h">
+      <Filter>來源檔案\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\BitFlags.hpp">
+      <Filter>來源檔案\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util\RandomSample.hpp">
+      <Filter>來源檔案\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity\Creature.h">
+      <Filter>來源檔案\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\ISkill.h">
+      <Filter>來源檔案\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Battle\ProcessController.hpp">
+      <Filter>來源檔案\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Skills.h">
+      <Filter>來源檔案\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Active\NormalAttack.h">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Battle\IBattleInfo.h">
+      <Filter>來源檔案\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Active\Escape.h">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity\Attribute.h">
+      <Filter>來源檔案\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Battle\BattleManager.h">
+      <Filter>來源檔案\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\WoodenSword.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipment.h">
+      <Filter>來源檔案\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\Equipments.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Weapon.h">
+      <Filter>來源檔案\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\MagicWand.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Active\ShockBlast.h">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Buff\Buff.h">
+      <Filter>來源檔案\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameEvent\EmGameInvokeEvent.h">
+      <Filter>來源檔案\GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Passive\Hammer_Splash.h">
+      <Filter>來源檔案\Skill\Passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\Hammer.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Active\Heal.h">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Effect\IEffect.h">
+      <Filter>來源檔案\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Active\Provoke.h">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Passive\Fortify.h">
+      <Filter>來源檔案\Skill\Passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\PlateArmor.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Passive\Destory.h">
+      <Filter>來源檔案\Skill\Passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\DirtyStuff.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Active\SpeedUp.h">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Items.h">
+      <Filter>來源檔案\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\WoodenShield.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\Robe.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\RitualSword.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\LeatherArmor.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\LaurelWreath.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\HolyGrail.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\GiantHammer.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\Bracelet.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AI\AIAgent.hpp">
+      <Filter>來源檔案\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity\TentEntity.h">
+      <Filter>來源檔案\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity\WorldEvent.h">
+      <Filter>來源檔案\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item\Equipments\Shoes.h">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skill\Passive\Run.h">
+      <Filter>來源檔案\Skill\Passive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI\Panel.cpp">
+      <Filter>來源檔案\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI\Scenes\Scene_TravelMap.cpp">
+      <Filter>來源檔案\UI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\UserEvent.cpp">
+      <Filter>來源檔案\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entity\Entity.cpp">
+      <Filter>來源檔案\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Active\NormalAttack.cpp">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\ISkill.cpp">
+      <Filter>來源檔案\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Battle\IBattleInfo.cpp">
+      <Filter>來源檔案\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Active\Escape.cpp">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Item\Equipments\WoodenSword.cpp">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Battle\BattleManager.cpp">
+      <Filter>來源檔案\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entity\Creature.cpp">
+      <Filter>來源檔案\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Active\ShockBlast.cpp">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Passive\Hammer_Splash.cpp">
+      <Filter>來源檔案\Skill\Passive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Active\Heal.cpp">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Active\Provoke.cpp">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Buff\Buff.cpp">
+      <Filter>來源檔案\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Item\Equipment.cpp">
+      <Filter>來源檔案\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI\Scenes\IScene.cpp">
+      <Filter>來源檔案\UI\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Passive\Fortify.cpp">
+      <Filter>來源檔案\Skill\Passive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Passive\Destory.cpp">
+      <Filter>來源檔案\Skill\Passive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Item\Equipments\DirtyStuff.cpp">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Active\SpeedUp.cpp">
+      <Filter>來源檔案\Skill\Active</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Item\Equipments\LaurelWreath.cpp">
+      <Filter>來源檔案\Item\Equipments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Item\Items.cpp">
+      <Filter>來源檔案\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entity\TentEntity.cpp">
+      <Filter>來源檔案\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entity\WorldEvent.cpp">
+      <Filter>來源檔案\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skill\Passive\Run.cpp">
+      <Filter>來源檔案\Skill\Passive</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
